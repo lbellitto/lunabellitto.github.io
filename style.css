@@ -1,6 +1,6 @@
 body {
     font-family: 'Scotch', serif;
-    background-color: #e2d9d7;
+    background-color: bcbabd;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,7 +8,7 @@ body {
 
 .sidebar {
     width: 250px;
-    background-color: #ff5733;
+    background-color: #dfa1f6;
     position: fixed;
     height: 100%;
     padding: 20px;
