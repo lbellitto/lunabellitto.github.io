@@ -17,7 +17,7 @@ body {
 
 .sidebar-title {
     font-size: 2em;
-    color: white;
+    color: black;
     margin-bottom: 20px;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .sidebar-item {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.5em; /* 2x body text size */
     display: block;
@@ -53,7 +53,7 @@ body {
     width: 150px; /* Adjust as needed */
     height: 150px; /* Adjust as needed */
     border-radius: 50%;
-    border: 5px solid #ff5733; /* Circular frame */
+    border: 5px solid #dda3f9; /* Circular frame */
 }
 
 h2 {
