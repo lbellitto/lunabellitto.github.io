@@ -46,7 +46,7 @@ body {
 
 .profile-picture {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .profile-picture img {
@@ -66,8 +66,9 @@ h3 {
 
 .social-icons {
     margin-top: 20px;
+    text-align: center;
 }
 
 .social-icons a {
-    margin-right: 10px;
+    margin: 0 10px;
 }
