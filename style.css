@@ -1,69 +1,85 @@
 body {
     font-family: 'Scotch', serif;
-    background-color: #f7e8fe;
+    background-color: #f5f7fa; /* light neutral */
     margin: 0;
     padding: 0;
     display: flex;
+    height: 100vh;
+    color: #333;
 }
 
+/* Sidebar on the left */
 .sidebar {
-    width: 250px;
-    background-color: #dda3f9;
+    width: 220px;
+    background-color: #2c3e50; /* professional dark blue */
     position: fixed;
     height: 100%;
-    padding: 20px;
+    padding: 30px 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .sidebar-title {
-    font-size: 2em;
-    color: black;
-    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #ecf0f1;
+    margin-bottom: 30px;
 }
 
 .sidebar-menu {
     list-style: none;
     padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .sidebar-item {
-    color: black;
+    color: #ecf0f1;
     text-decoration: none;
-    font-size: 1.5em; /* 2x body text size */
+    font-size: 1.2em;
     display: block;
-    margin: 10px 0;
+    margin: 15px 0;
+    transition: color 0.3s ease;
 }
 
 .sidebar-item:hover {
-    text-decoration: underline;
+    color: #1abc9c; /* accent turquoise */
 }
 
+/* Content section */
 .content {
-    margin-left: 270px; /* Sidebar width + padding */
-    padding: 20px;
-    overflow: auto;
+    margin-left: 240px; /* Sidebar width */
+    padding: 40px;
+    text-align: center;
 }
 
+/* Center profile picture */
 .profile-picture {
-    text-align: center;
-    margin-bottom: 20px;
+    margin: 40px auto;
 }
 
 .profile-picture img {
-    width: 150px; /* Adjust as needed */
-    height: 150px; /* Adjust as needed */
+    width: 250px;  /* bigger image */
+    height: 250px;
     border-radius: 50%;
-    border: 5px solid #dda3f9; /* Circular frame */
+    border: 6px solid #2c3e50;
+    object-fit: cover;
 }
 
+/* Headings */
 h2 {
-    font-size: 3em; /* 3x body text size */
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #2c3e50;
 }
 
 h3 {
-    font-size: 1em; /* Same size as body text */
+    font-size: 1.2em;
+    color: #555;
 }
 
+/* Social icons */
 .social-icons {
     margin-top: 20px;
     text-align: center;
@@ -71,4 +87,12 @@ h3 {
 
 .social-icons a {
     margin: 0 10px;
+    color: #2c3e50;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
 }
+
+.social-icons a:hover {
+    color: #1abc9c;
+}
+
