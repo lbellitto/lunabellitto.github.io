@@ -60,13 +60,13 @@ body {
 
 /* Content */
 .content {
-  margin-left: 240px;      /* still leave space for sidebar */
+  margin-left: 500px;      /* still leave space for sidebar */
   display: flex;
   flex-direction: column;
   align-items: flex-start; /* align items from the left */
   justify-content: center; /* vertical centering */
   text-align: center;
-  height: 100vh;
+  height: 50vh;
   padding-left: 200px;     /* push everything more to the right */
   box-sizing: border-box;
 }
