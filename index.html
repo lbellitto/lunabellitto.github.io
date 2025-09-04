@@ -1,78 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luna Bellitto - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="sidebar">
-        <div class="profile-picture">
-            <img src="https://github.com/lbellitto/lunabellitto.github.io/blob/main/IMG_1254.JPG?raw=true" alt="Your Picture">
-        </div>
-        <div class="sidebar-title">My Portfolio</div>
-        <ul class="sidebar-menu">
-            <li><a href="#about" class="sidebar-item">ABOUT</a></li>
-            <li><a href="#projects" class="sidebar-item">PROJECTS</a></li>
-        </ul>
-        <div class="social-icons">
-            <a href="mailto:lbellitto@ucsd.edu">
-                <img src="envelope-solid.svg" alt="Email" style="width: 24px; height: 24px;">
-            </a>
-            <a href="https://www.linkedin.com/in/luna-bellitto-610930263/">
-                <img src="linkedin-brands-solid.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
-            </a>
-            <a href="https://github.com/lbellitto">
-                <img src="github-brands-solid.svg" alt="GitHub" style="width: 24px; height: 24px;">
-            </a>
-        </div>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2 class="sidebar-title">Menu</h2>
+    <ul class="sidebar-menu">
+      <li><a href="#about" class="sidebar-item">About</a></li>
+      <li><a href="#resume" class="sidebar-item">Resume</a></li>
+      <li><a href="#portfolio" class="sidebar-item">Portfolio</a></li>
+    </ul>
+
+    <!-- Social icons -->
+    <div class="social-icons">
+      <a href="mailto:lbellitto@ucsd.edu">
+        <img src="envelope-solid.svg" alt="Email" style="width: 24px; height: 24px;">
+      </a>
+      <a href="https://www.linkedin.com/in/luna-bellitto-610930263/">
+        <img src="linkedin-brands-solid.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
+      </a>
+      <a href="https://github.com/lbellitto">
+        <img src="github-brands-solid.svg" alt="GitHub" style="width: 24px; height: 24px;">
+      </a>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <div class="content">
+    <div class="profile-picture">
+      <img src="https://github.com/lbellitto/lunabellitto.github.io/blob/main/IMG_1254.JPG?raw=true" alt="Luna Bellitto">
+    </div>
+    <div class="description">
+      <p>Hello! I’m <strong>Luna Bellitto</strong>. I am passionate about computational social science, international affairs, and human rights. My goal is to use data science and policy analysis to make a positive impact on people’s lives.</p>
     </div>
 
-    <div class="content">
-        <section id="about">
-            <h2>ABOUT</h2>
-            <h3>Resume</h3>
-            <p>Main points of my resume:</p>
-            <ul>
-                <li><strong>Name:</strong> Luna Bellitto</li>
-                <li><strong>Email:</strong> lbellitto@ucsd.edu</li>
-                <li><strong>Education:</strong> BA in International Affairs, John Cabot University. MS in Computational Social Science, University of California, San Diego.</li>
-                <li><strong>Experience:</strong> During my undergraduate years, I developed an interest in Economics, International Law, Politics, and Human Rights. Right now, I am learning how to analyze data related to these fields.</li>
-                <li><strong>Skills:</strong> I am learning programs like Python, R, and GIS.</li>
-            </ul>
-            
-            <!-- Display the resume in an iframe using Google Drive Preview -->
-            <h4>My Resume: Luna Bellitto</h4>
-            <iframe src="https://drive.google.com/file/d/1OPHsAfnhbQXJshXNYbHK81DIRnyObStw/preview" 
-                    width="100%" 
-                    height="600px" 
-                    style="border: none;">
-            </iframe>
+    <!-- Sections -->
+    <section id="about">
+      <h2>About</h2>
+      <p>This section will contain a brief overview about me and my academic/professional background.</p>
+    </section>
 
-            <!-- Link for downloading the resume -->
-            <p><a href="https://drive.google.com/file/d/1OPHsAfnhbQXJshXNYbHK81DIRnyObStw/view?usp=sharing" target="_blank">Download my Resume</a></p>
-        </section>
-        
-        <section id="projects">
-            <h2>PROJECTS</h2>
-            <h3>Project: Convention on the Rights of the Child</h3>
-            <p>Details: This is the final project of my undergraduate. In this paper, I try to understand the effects of the implementation of the Convention on the Rights of the Child on indigenous children in Colombia and Brazil.</p>
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Here you can view my resume:</p>
+      <iframe src="https://drive.google.com/file/d/1OPHsAfnhbQXJshXNYbHK81DIRnyObStw/preview" 
+              width="100%" 
+              height="600px" 
+              style="border: none;"></iframe>
+      <p><a href="https://drive.google.com/file/d/1OPHsAfnhbQXJshXNYbHK81DIRnyObStw/view?usp=sharing" target="_blank">Download my Resume</a></p>
+    </section>
 
-            <h4>Title: Has The Application of The Convention on The Rights of The Child Positively Affected The Enjoyment of Human Rights For Indigenous Children in South America? </h4>
-
-            <!-- Display the paper in an iframe using Google Drive Preview -->
-            <iframe src="https://drive.google.com/file/d/1oOFEiDQZ3PVwSNwSUN9efqyDWUugWxW3/preview" 
-                    width="100%" 
-                    height="600px" 
-                    style="border: none;">
-            </iframe>
-
-            <!-- Link for downloading the paper -->
-            <p><a href="https://drive.google.com/file/d/1oOFEiDQZ3PVwSNwSUN9efqyDWUugWxW3/view?usp=sharing" target="_blank">Download my paper</a></p>
-        </section>
-    </div>
-
-    <script src="script.js"></script>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Here you can view one of my projects:</p>
+      <iframe src="https://drive.google.com/file/d/1oOFEiDQZ3PVwSNwSUN9efqyDWUugWxW3/preview" 
+              width="100%" 
+              height="600px" 
+              style="border: none;"></iframe>
+      <p><a href="https://drive.google.com/file/d/1oOFEiDQZ3PVwSNwSUN9efqyDWUugWxW3/view?usp=sharing" target="_blank">Download my Paper</a></p>
+    </section>
+  </div>
 </body>
-</html> 
+</html>
