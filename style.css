@@ -107,8 +107,8 @@ body {
 
 /* About metext */
 .about-text {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: 20x auto;
   font-size: 18px;
   line-height: 1.6;
   color: #444;
