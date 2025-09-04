@@ -86,3 +86,12 @@ body {
   font-size: 1.5em;
   color: #555;
 }
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* horizontal centering */
+    justify-content: center; /* vertical centering */
+    height: 100%;            /* full height of content area */
+    width: 100%;             /* span full width of content area */
+}
