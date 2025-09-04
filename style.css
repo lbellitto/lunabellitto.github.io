@@ -95,3 +95,7 @@ body {
   text-align: center;
 }
 
+.about-section p {
+  font-size: 20px;   /* larger than normal */
+} 
+
