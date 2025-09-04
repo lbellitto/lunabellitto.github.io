@@ -63,10 +63,11 @@ body {
   margin-left: 240px; /* space for sidebar */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center;     /* horizontal center */
+  justify-content: center; /* vertical center */
   text-align: center;
-  flex: 1;
+  height: 100vh;           /* take full height for vertical centering */
+  box-sizing: border-box;
 }
 
 /* Profile picture */
