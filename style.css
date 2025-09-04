@@ -104,3 +104,10 @@ body {
   border: 6px solid #2c3e50;
   object-fit: cover;
 }
+
+/* About metext */
+.about-section h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
