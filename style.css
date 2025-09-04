@@ -107,9 +107,16 @@ body {
 
 /* About metext */
 .about-text {
-  max-width: 500px;
+  max-width: 1000px;
   margin: 20xp auto;
   font-size: 18px;
   line-height: 1.6;
   color: #444;
+}
+
+.about-picture img {
+  width: 250px;       /* adjust size */
+  height: auto;       /* keeps proportions */
+  border-radius: 50%; /* keeps circular frame */
+  object-fit: cover;  /* avoids stretching */
 }
