@@ -118,6 +118,8 @@ body {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  object-fit: contain;
-  background-color: #fff; /* fills the circle background */
+  border: 4px solid #2c3e50;
+  object-fit: cover;
+  object-position: center top; /* ← moves image focus lower */
+}
 }
