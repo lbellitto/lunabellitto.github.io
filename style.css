@@ -95,8 +95,16 @@ body {
   text-align: center;
 }
 
-.about-section p {
-  margin-top: 20px;
-  font-size: 1.0em;   
-} 
+/* Headings */
+h1, h2, h3 {
+  font-size: 28px;   
+  font-weight: bold;
+}
+
+/* Normal text */
+p {
+  font-size: 18px;   
+  line-height: 1.6;  
+}
+
 
