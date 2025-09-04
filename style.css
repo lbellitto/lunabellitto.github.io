@@ -115,8 +115,9 @@ body {
 }
 
 .about-picture img {
-  width: 250px;       /* adjust size */
-  height: auto;       /* keeps proportions */
-  border-radius: 50%; /* keeps circular frame */
-  object-fit: cover;  /* avoids stretching */
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: #fff; /* fills the circle background */
 }
