@@ -122,3 +122,19 @@ body {
   margin-left: 20px; 
   max-width: 1000px;
 }
+
+.content {
+  display: flex;
+  align-items: center;  
+  gap: 20px; 
+}
+
+.portfolio-text {
+  flex: 1; 
+}
+
+.portfolio-img {
+  width: 200px;   
+  height: auto;  
+  border-radius: 8px; 
+}
