@@ -136,6 +136,6 @@ body {
 .portfolio-img1 {
   width: 200px;   
   height: auto; 
-  transform: scale(0.90); 
+  transform: scale(1); 
   border-radius: 8px; 
 }
