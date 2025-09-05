@@ -123,18 +123,19 @@ body {
   max-width: 1000px;
 }
 
-.content {
-  display: flex;
-  align-items: center;  
-  gap: 20px; 
-}
-
+/* Portfolio section */
 .portfolio-text {
-  flex: 1; 
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  margin-left: 20px; 
+  margin-right: 40px;
+  max-width: 1000px; 
 }
 
 .portfolio-img1 {
   width: 200px;   
-  height: auto;  
+  height: auto; 
+  transform: scale(0.5); 
   border-radius: 8px; 
 }
